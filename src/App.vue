@@ -2,11 +2,11 @@
   <div id="app">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar   fixed-top" id="mainNav" style="background-color:#BEB5F5;">
       <div class="container">
         <a class="navbar-brand text-white  js-scroll-trigger" href="#pagetop">
-        <img src="" width="30" height="30" class="d-inline-block align-top" alt="">Median</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="" width="30" height="30" class="d-inline-block align-top" alt="">Pregnancy Safe</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#EDDDCC;" >
           Menu
           <i class="fas fa-bars"></i>
         </button>
@@ -16,10 +16,10 @@
               <a class="nav-link js-scroll-trigger" href="#services">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Terms</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Services</a>  <router-link to="/page2">Navigate to Page2</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Privacy</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Consultas</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Api</a>
@@ -29,6 +29,7 @@
             </li>
           </ul>
         </div>
+     
       </div>
     </nav>
 
@@ -36,8 +37,8 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Encuestas a gran escala</div>
-          <div class="intro-heading text-uppercase">En el menor tiempo posible</div>
+          <div class="intro-lead-in">Cuida tu embarazo</div>
+          <div class="intro-heading text-uppercase">Resuelve todas tus dudas</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">comenza</a>
         </div>
       </div>
@@ -58,30 +59,27 @@
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Opiniones reales</h4>
-            <p class="text-muted text-justify">Sustenta tus ideas en base a datos reales. Median aplica un riguroso 
-protocolo de autenticacion. Lo cual permite tener contacto con personas 
-reales que buscan ser encuestadas.</p>
+            <h4 class="service-heading">Citas</h4>
+            <p class="text-muted text-justify"> 
+              Citas virtuales con especiales, dispuesto a resolver todas tus dudas e inquetudes
+
+            </p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Publico objetivo</h4>
-            <p class="text-muted text-justify">Aplica los filtros cualitativos o cuantitativos necesarios para recibir solo
-respuestas relevantes. Median tambien permite que ciertos usuarios se
-identifiquen como profesionales, lo cual lleva las encuestras a otro nivel.</p>
+            <h4 class="service-heading">Comunicación</h4>
+            <p class="text-muted text-justify">Comunicación de forma inmediata con especialistas (obstetras) por medio de chat</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Encuestas dinamicas</h4>
-            <p class="text-muted text-justify">Especifica si deseas recibir respuestas por escrito, en audio o en video.
-Puedes tener todas a la vez si asi lo crees conveinente. La plataforma
-se encarga de manejar el contenido y </p>
+            <h4 class="service-heading">Informacion</h4>
+            <p class="text-muted text-justify">Médicos dedicados a la salud de mujeres en las distintas etapas de su embarazo brindadando videos y documentos con informacion precisa recomendada por los mejores doctores </p>
           </div>
      
           
@@ -91,7 +89,7 @@ se encarga de manejar el contenido y </p>
 </div>
         
 <div class="text-center  mt-lg-5">
- <img class="mx-auto" src="/src/assets/img/SS1.png" alt="ds">
+ 
 </div>
         
       </div>
@@ -249,7 +247,7 @@ se encarga de manejar el contenido y </p>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Median 2020</span>
+            <span class="copyright">Copyright &copy; PregnancySafe 2020</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
